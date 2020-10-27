@@ -10,3 +10,8 @@
 .sidenav i {
     padding-right: .7rem;
 }
+
+.content {
+    padding: 1rem;
+    background-color: #fff;
+}
