@@ -9,6 +9,21 @@
       "id": 3,
       "name": "Teclado",
       "price": "180"
+    },
+    {
+      "name": "PC Gamer",
+      "price": "4500",
+      "id": 4
+    },
+    {
+      "name": "Iphone 20",
+      "price": "5000",
+      "id": 5
+    },
+    {
+      "name": "Caneta BIC",
+      "price": "2",
+      "id": 6
     }
   ]
 }
