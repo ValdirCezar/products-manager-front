@@ -10,3 +10,7 @@
     font-weight: 400;
     font-size: 1rem;
 }
+
+span .name {
+    color: #673ab7;
+}

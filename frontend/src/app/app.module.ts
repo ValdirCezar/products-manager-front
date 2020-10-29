@@ -1,4 +1,4 @@
-import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { MatSnackBarModule } from "@angular/material/snack-bar";
 import { BrowserModule } from "@angular/platform-browser";
 import { NgModule } from "@angular/core";
 
@@ -8,19 +8,31 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { HeaderComponent } from "./components/template/header/header.component";
 
 import { MatToolbarModule } from "@angular/material/toolbar";
-import { FooterComponent } from './components/template/footer/footer.component';
-import { NavComponent } from './components/template/nav/nav.component';
+import { FooterComponent } from "./components/template/footer/footer.component";
+import { NavComponent } from "./components/template/nav/nav.component";
 
-import { MatSidenavModule} from '@angular/material/sidenav';
-import { MatListModule } from '@angular/material/list';
-import { HomeComponent } from './views/home/home.component';
-import { MatCardModule } from '@angular/material/card';
-import { CrudComponent } from './views/product/crud/crud.component';
-import { ProductCreateComponent } from './components/component/product/product-create/product-create.component';
-import { MatButtonModule } from '@angular/material/button';
+import { MatSidenavModule } from "@angular/material/sidenav";
+import { MatListModule } from "@angular/material/list";
+import { HomeComponent } from "./views/home/home.component";
+import { MatCardModule } from "@angular/material/card";
+import { CrudComponent } from "./views/product/crud/crud.component";
+import { ProductCreateComponent } from "./components/component/product/product-create/product-create.component";
+import { MatButtonModule } from "@angular/material/button";
+
+import { HttpClientModule } from "@angular/common/http";
+import { MatInputModule } from "@angular/material/input";
+import { FormsModule } from "@angular/forms";
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, FooterComponent, NavComponent, HomeComponent, CrudComponent, ProductCreateComponent],
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    FooterComponent,
+    NavComponent,
+    HomeComponent,
+    CrudComponent,
+    ProductCreateComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -30,7 +42,10 @@ import { MatButtonModule } from '@angular/material/button';
     MatListModule,
     MatCardModule,
     MatButtonModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    HttpClientModule,
+    MatInputModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
