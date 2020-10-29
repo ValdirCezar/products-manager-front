@@ -32,6 +32,7 @@ import { ProductRead2Component } from "./components/component/product/product-up
 import localePt from "@angular/common/locales/pt";
 import { registerLocaleData } from "@angular/common";
 import { ProductUpdateComponent } from './components/component/product/product-update/product-update.component';
+import { ProductDeleteComponent } from './components/component/product/product-delete/product-delete.component';
 
 registerLocaleData(localePt);
 
@@ -47,6 +48,7 @@ registerLocaleData(localePt);
     ProductReadComponent,
     ProductRead2Component,
     ProductUpdateComponent,
+    ProductDeleteComponent,
   ],
   imports: [
     BrowserModule,
