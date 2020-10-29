@@ -26,11 +26,12 @@ import { NavComponent } from "./components/template/nav/nav.component";
 
 import { ProductCreateComponent } from "./components/component/product/product-create/product-create.component";
 import { ProductReadComponent } from "./components/component/product/product-read/product-read.component";
-import { ProductRead2Component } from "./components/product/product-read2/product-read2.component";
+import { ProductRead2Component } from "./components/component/product/product-update/product-read2/product-read2.component";
 
 
 import localePt from "@angular/common/locales/pt";
 import { registerLocaleData } from "@angular/common";
+import { ProductUpdateComponent } from './components/component/product/product-update/product-update.component';
 
 registerLocaleData(localePt);
 
@@ -45,6 +46,7 @@ registerLocaleData(localePt);
     ProductCreateComponent,
     ProductReadComponent,
     ProductRead2Component,
+    ProductUpdateComponent,
   ],
   imports: [
     BrowserModule,

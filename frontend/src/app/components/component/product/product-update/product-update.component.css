@@ -1,0 +1,14 @@
+button {
+    padding: 0 2rem;
+    margin-top: 1rem;
+    margin-right: .4rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.price {
+    width: 13.5rem;
+}

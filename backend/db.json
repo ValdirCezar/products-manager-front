@@ -2,13 +2,13 @@
   "products": [
     {
       "id": 1,
-      "name": "Notebook",
-      "price": "1200"
+      "name": "Notebook Apple",
+      "price": "12000"
     },
     {
       "id": 2,
       "name": "Mouse",
-      "price": "100"
+      "price": "99.90"
     },
     {
       "id": 3,
