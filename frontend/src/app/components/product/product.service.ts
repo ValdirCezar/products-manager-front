@@ -10,6 +10,8 @@ import { Product } from "./product.model";
 export class ProductService {
   baseUrl = "http://localhost:3001/products";
 
+
+
   constructor(private snackBar: MatSnackBar, private http: HttpClient) {}
 
   showMessageCreated(msg: string) {
@@ -22,5 +24,9 @@ export class ProductService {
 
   create(product: Product): Observable<Product> {
     return this.http.post<Product>(this.baseUrl, product);
+  }
+
+  read(): Observable<Product[]> {
+    return this.http.get<Product[]>(this.baseUrl);
   }
 }
